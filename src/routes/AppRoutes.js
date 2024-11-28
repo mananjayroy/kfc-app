@@ -1,13 +1,9 @@
-import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './pages/Home/Home';
-import Menu from './pages/Menu/Menu';
-import Cart from './pages/Cart/Cart';
+import Home from '../pages/Home/Home';
+import Menu from '../pages/Menu/Menu';
+import Cart from '../pages/Cart/Cart';
 
-// import AppRoutes from './routes/AppRoutes';
-
-
-function App() {
+const AppRoutes = () => {
   return (
     <Router>
       <Routes>
@@ -17,7 +13,6 @@ function App() {
       </Routes>
     </Router>
   );
-}
+};
 
-export default App;
-
+export default AppRoutes;
