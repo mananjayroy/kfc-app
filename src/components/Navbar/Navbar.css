@@ -1,0 +1,54 @@
+nav {
+    background-color: #fff; /* Background color of navbar */
+    padding: 20px 100px; /* Add padding for spacing */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow */
+    display: flex;
+    justify-content: space-between;
+  }
+
+  nav ul {
+    display: flex; /* Align items in one row */
+    list-style: none; /* Remove bullet points */
+    align-items: center; /* Vertically align items */
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+  }
+  
+  nav li {
+    margin-right: 40px; /* Space between menu items */
+    display: flex;
+  }
+  
+  nav li:last-child {
+    margin-right: 0; /* Remove margin for the last item */
+  }
+  
+  nav a {
+    text-decoration: none; /* Remove underline */
+    color: #333; /* Text color */
+    font-size: 16px; /* Font size for links */
+    display: flex; /* Align icon and text horizontally */
+    align-items: center; /* Vertically center icon and text */
+    gap: 1px; /* Space between icon and text */
+  }
+  
+  .navbar-logo {
+    width: 80px; /* Adjust logo size */
+    height: auto;
+  }
+
+  .navbar-left {
+    display: flex;
+    align-items: center;
+  }
+  .navbar-right {
+    display: flex;
+    /* align-items: center; */
+  }
+  
+  .cart-icon{
+    width: 50px; /* Adjust logo size */
+    height: auto;
+  }
+  
